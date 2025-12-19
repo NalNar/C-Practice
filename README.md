@@ -6,7 +6,7 @@ The goal of this repository is to build a strong foundation in C and C++, coveri
 ---
 
 ## Textbook Reference
-####dynamically updated
+#### * dynamically updated
 
 ---
 
