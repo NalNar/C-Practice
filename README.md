@@ -8,6 +8,7 @@ The goal of this repository is to build a strong foundation in C and C++, coveri
 ## Textbook Reference
 ### C: Head First C by David Griffiths and Dawn Griffiths & The C Programming Language by Brian Kernighan and Dennis Ritchie
 ### C++: Tour of C++ by Bjarne Stroustrup
+### C#
 
 ---
 
