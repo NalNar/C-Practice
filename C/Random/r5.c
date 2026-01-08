@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-    simple recursion program
+    simple recursion programs
 */
 
 int factorial(int f)
