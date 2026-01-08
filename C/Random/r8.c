@@ -7,7 +7,7 @@ int main(){
     int length = sizeof(age)/sizeof(age[0]);
 
     for(int i =0; i<length;i++){
-        printf("The person %d is %d old ", i+1, age[i]);
+        printf("The person %d is %d years old ", i+1, age[i]);
         printf("\n");
     }
 
