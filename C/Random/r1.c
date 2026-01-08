@@ -9,8 +9,9 @@ void line()
         printf("-");
         hypens--;
     }
+    printf("\n");
 
-    return void;
+
 
 }
 
