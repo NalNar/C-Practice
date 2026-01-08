@@ -1,20 +1,25 @@
 #include <stdio.h>
+#include <ctype.h>
 // char is uppercase output lowercase
 // char is lowercase output uppercase
 // process the character in a loop
 
 int main(){
-    char c;
-    for(int i =0;i<10;i++){
-        printf("Enter the character: ");
-        scanf("%c", &c);
+    char string[] = "nifty text \n";
+    int ch ;
+    int x= 0;
 
-        if(c>='A' && c<='Z'){
-            c+=32;
-        } else if(c >= 'a' && c <= 'z'){
-            c-=32;
-        }
-        printf("Converted character: %c\n\n", c);
+    while( (ch=string[x])!='\0'){
+        if(isupper(ch))
+            putchar(tolower(ch));
+        else if (islower(ch))
+            putchar(toupper(ch));
+        else
+            putchar(ch);
+        x++;
     }
+
+
+    
     return 0;
 }
